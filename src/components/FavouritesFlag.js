@@ -1,13 +1,10 @@
 import FavouritesBar from "./FavouritesBar"
 
 
-const FavouritesFlag = () => {
+const FavouritesFlag = ({favCountry}) => {
     return (
         <>
-            <h4>🏴󠁧󠁢󠁳󠁣󠁴󠁿</h4>
-            <h4>🏴󠁧󠁢󠁳󠁣󠁴󠁿</h4>
-            <h4>🏴󠁧󠁢󠁳󠁣󠁴󠁿</h4>
-
+            <p>{favCountry.flag}</p>
         </>
     )
 }

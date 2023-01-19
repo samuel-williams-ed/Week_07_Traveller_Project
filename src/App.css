@@ -28,8 +28,17 @@
 
 .border {
   border: 5px solid black;
+  margin: 4px;
+  padding: 4px;
 }
 
 .favourites-bar {
   display: flex;
+}
+
+.details-container {
+  background-color: #282c3469;
+}
+button {
+  margin: 6px;
 }

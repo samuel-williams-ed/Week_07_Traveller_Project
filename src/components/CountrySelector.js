@@ -1,6 +1,7 @@
+import FavouritesButton from "./FavouritesButton"
 
 
-const CountrySelector = ({countries, onCountrySelect}) => {
+const CountrySelector = ({countries, onCountrySelect, addFavButton}) => {
 
     // once item selected
     const handleChange = (evt) => {
@@ -12,17 +13,19 @@ const CountrySelector = ({countries, onCountrySelect}) => {
     const countryItems = countries.map((country) => {
         // return html element containing country name
         return (
-            <option className="drop-down-item" value={(country.name.common)}>{country.flag} {country.name.common}</option>
+            <option key={country.name.common} className="drop-down-item" value={(country.name.common)}>{country.flag} {country.name.common}</option>
         )
     })
 
     return (
         <section className="border">
             <h4>This is a Country Selector</h4>
+            
 
             <select defaultValue="" onChange={handleChange}>
                 {countryItems}
             </select>
+            <FavouritesButton addFavButton={addFavButton}/>
             
         </section>
     )

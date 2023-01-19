@@ -4,7 +4,7 @@ import CountryPage from './containers/CountryPage';
 function App() {
   return (
     <>
-      <header>Welcome to Code-Traveller</header>
+      <header>Welcome to CodeCartographer</header>
       <CountryPage/>
     </>
   );

@@ -1,10 +1,15 @@
 import FavouritesFlag from "./FavouritesFlag"
 
-const FavouritesBar = () => {
+const FavouritesBar = ({favourites}) => {
+
+    // iterate for each country in favourites list & generate FavouritesFlag
+    const generateHTMLforEachFavourite = favourites.map((favCountry) => (<FavouritesFlag key={favCountry.name.common} favCountry={favCountry}/>))
+
+
     return (
         <section className="border favourites-bar">
-            <h4>This is the favouritesBar</h4>
-            <FavouritesFlag/>
+            Favourites:
+            {generateHTMLforEachFavourite}
         </section>
     )
 }

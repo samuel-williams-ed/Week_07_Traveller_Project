@@ -1,11 +1,11 @@
 import FavouritesBar from "./FavouritesBar"
 
 
-const Favourites = () => {
+const Favourites = ({favourites}) => {
     return (
         <>
             <h4>This is a Favourites</h4>
-            <FavouritesBar/>
+            <FavouritesBar favourites={favourites}/>
         </>
     )
 }
