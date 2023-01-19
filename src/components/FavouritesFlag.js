@@ -4,7 +4,7 @@ import FavouritesBar from "./FavouritesBar"
 const FavouritesFlag = ({favCountry}) => {
     return (
         <>
-            <p>{favCountry.flag}</p>
+            <label value={favCountry.name.common}><div>{favCountry.flag}</div></label>
         </>
     )
 }
