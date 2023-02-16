@@ -2,7 +2,7 @@
 
 
 
-[screenshot of projet]("/Users/user/codeclan_work/week_07/day_04/code-traveller/images/Screenshot 2023-02-16 at 01.36.33.png")
+![screenshot of projet](./images/Screenshot 2023-02-16 at 01.36.33.png)
 
 
 # Getting Started with Create React App
