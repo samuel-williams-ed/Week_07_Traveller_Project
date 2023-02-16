@@ -6,7 +6,6 @@ function App() {
     <>
       <header>Welcome to CodeCartographer</header>
       <CountryPage/>
-      <p>Made by Sam :)</p>
     </>
   );
 }
