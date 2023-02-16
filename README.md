@@ -2,7 +2,8 @@
 
 
 
-![screenshot of projet](./images/Screenshot 2023-02-16 at 01.36.33.png)
+![screenshot of project](./images/Screenshot%202023-02-16%20at%2001.36.33.png)
+
 
 
 # Getting Started with Create React App
