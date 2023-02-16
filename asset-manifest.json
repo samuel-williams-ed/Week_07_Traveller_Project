@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Week_07_Traveller_Project/static/css/main.4553a975.css",
-    "main.js": "/Week_07_Traveller_Project/static/js/main.c6766e52.js",
+    "main.js": "/Week_07_Traveller_Project/static/js/main.19a16808.js",
     "static/js/787.ab4236be.chunk.js": "/Week_07_Traveller_Project/static/js/787.ab4236be.chunk.js",
     "index.html": "/Week_07_Traveller_Project/index.html",
     "main.4553a975.css.map": "/Week_07_Traveller_Project/static/css/main.4553a975.css.map",
-    "main.c6766e52.js.map": "/Week_07_Traveller_Project/static/js/main.c6766e52.js.map",
+    "main.19a16808.js.map": "/Week_07_Traveller_Project/static/js/main.19a16808.js.map",
     "787.ab4236be.chunk.js.map": "/Week_07_Traveller_Project/static/js/787.ab4236be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4553a975.css",
-    "static/js/main.c6766e52.js"
+    "static/js/main.19a16808.js"
   ]
 }
