@@ -1,6 +1,10 @@
-# Welcome
+# Welcome to CodeCartographer
 
+We're pulling in the [restcountries API](https://restcountries.com/v3.1/all) to show everyone details of their favourite places to go visit.
 
+Remember to save your favourites!
+
+Here's a snap of how our app looks:
 
 ![screenshot of project](./images/Screenshot%202023-02-16%20at%2001.36.33.png)
 
