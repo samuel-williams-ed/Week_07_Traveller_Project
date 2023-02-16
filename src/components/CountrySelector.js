@@ -18,14 +18,17 @@ const CountrySelector = ({countries, onCountrySelect, addFavButton}) => {
     })
 
     return (
-        <section className="border">
-            <h4>This is a Country Selector</h4>
-            
-
-            <select defaultValue="" onChange={handleChange}>
-                {countryItems}
-            </select>
-            <FavouritesButton addFavButton={addFavButton}/>
+        <section className="border white-text background-container">
+            <div className="woodland-backdrop"></div>
+                <div className="info-area-container">
+                    <h4>Pick a Country
+                    </h4>
+                        <select defaultValue="" onChange={handleChange}>
+                            {countryItems}
+                        </select>
+                        <FavouritesButton addFavButton={addFavButton}/>
+                </div>
+                
             
         </section>
     )

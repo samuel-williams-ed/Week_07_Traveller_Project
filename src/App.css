@@ -38,7 +38,41 @@
 
 .details-container {
   background-color: #282c3469;
+
 }
 button {
   margin: 6px;
+}
+
+.info-area-container{
+
+  padding: 0.4em;
+  margin: 1em;
+  background-color: rgba(0, 0, 0, 0.44);
+}
+image-container {
+  width: 50%;
+}
+.white-text{
+  color: white;
+}
+.background-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.woodland-backdrop {
+  width: 100%;
+  height: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfkl4MoH67VlTPVdemeXAw3CNsotsRGY9_Q&usqp=CAU") no-repeat fixed;
+  background-size: cover;
+  position: absolute;
+  animation: 60s infinite alternate slowpan linear;
+  z-index: -1;
+  /* background-clip: border-box; */
+}
+
+@keyframes slowpan {
+  0% {transform:translateX(-10%) scale(1.25);}
+  100% {transform:translateX(20%) scale(1.4);}
 }

@@ -71,10 +71,8 @@ const CountryPage = () => {
         <>
         {errorMessage && errorMessage}
 
-        <Favourites favourites={favourites}></Favourites>
-
         <CountrySelector countries={countries} onCountrySelect={onCountrySelect} addFavButton={addFavButton}/>
-        
+        <Favourites favourites={favourites}></Favourites>
         {countrySelected && <Details country={countrySelected}/>} {/* only render when country selected by user*/}
         </>
     )
