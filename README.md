@@ -1,3 +1,10 @@
+# Welcome
+
+
+
+[screenshot of projet]("/Users/user/codeclan_work/week_07/day_04/code-traveller/images/Screenshot 2023-02-16 at 01.36.33.png")
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
